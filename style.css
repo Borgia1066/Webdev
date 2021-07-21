@@ -1,0 +1,462 @@
+li {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+/* Navigation */
+
+.logo {
+    width: 44px;
+    height: 45px;
+    margin: 25px 100px 25px 100px;
+    background-image: url('assets/Icons/logo.svg');
+    background-size: cover;
+}
+
+.navList {
+    display: flex;
+    padding: 0;
+    width: 1600px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.navItem {
+    color: white;
+    width: 53px;
+    height:20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.navItem:nth-child(1) {
+    margin-right: 85px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navItem:nth-child(4) {
+    margin-right: 85px;
+}
+
+
+/* End of Navigation */
+
+/* Landing Page */
+
+.landingPage {
+    background-image: url('assets/images/bg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto 0 auto;
+    width: 1600px;
+    height: 744px;
+}
+
+.landingPage h1{
+    margin: 135px 435px 0 435px;
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400; 
+    height: 75px;
+    width: 730px;
+}
+
+.landingPage p {
+    margin: 20px 548px 0 548px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+ .landingPage button{
+    font-family: 'Roboto', sans-serif;
+    height: 46px;
+    width: 184px;
+    color: white;
+    background-color: #00AFDB;
+    padding: 15px 47px 15px 47px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    margin: 30px 708px 0 708px;
+}
+
+.landingPage button:hover{
+    cursor: pointer;
+    background-color: #009CC2;
+    
+}
+
+.socLinks {
+    margin: 183px 715px 90px 715px;
+    width: 170px;
+    height: 20px;
+    display: flex;
+}
+
+
+.socItem{
+    margin-right: 30px;
+}
+
+
+/* End of Landing Page */
+
+/* Rappresent Page */
+
+.rapPresent {
+    width: 1600px;
+    height: 842px;
+    background-color: white;
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+
+.rapContainer {
+    width: 407px;
+    height: 233px;
+    margin: 295px 248px 314px 269px;
+}
+
+.rapImage{
+    width: 407px;
+    height: 582px;
+    margin: 120px 269px 140px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('assets/images/content-image-1.jpg');
+}
+
+.rapContainer h1 {
+    font-size: 24px;
+    color: #373737;
+    padding: 0;
+    margin: 0 40px 20px 0;
+}
+
+.rapContainer p {
+    padding: 0;
+    font-size: 14px;
+    margin: 0;
+    color: #4E4E4E;
+}
+
+.rapContainer button{
+    margin: 30px 223px 0 0;
+    font-family: 'Roboto', sans-serif;
+    height: 46px;
+    width: 184px;
+    color: white;
+    background-color: #00AFDB;
+    padding: 15px 47px 15px 47px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+.rapContainer button:hover{
+    cursor: pointer;
+    background-color: #009CC2;
+    
+}
+
+/* End of Rappresent page */
+
+/* Our Community Page */
+
+.ourCommunity{
+    width: 1600px;
+    height: 504px;
+    background-color: #f4f4f4;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+.Community {
+    width: 298px;
+    height: 175px;
+    margin: 155px 139px 174px 269px;
+}
+
+.userPic {
+    margin: 0 126px 20px 127px;
+}
+
+.Community h1{
+    height: 20px;
+    width: 162px;
+    color: #3b3b3b;
+    letter-spacing: 0.5px;
+    margin: 0 69px 10px 69px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.Community p{
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.slider {
+    height: 244px;
+    width: 894px;
+    margin: 120px 0 139px 0;
+    display: flex;
+}
+
+.slider-item:not(:nth-child(3)) {
+    margin: 0 30px 0 0;
+    padding: 0;
+}
+
+
+/* End of Our Community Page */
+
+/* Implement right code Page */
+
+.implementCode {
+    margin: 0 auto 0 auto;
+    width: 1600px;
+    height: 842px;
+    display: flex;
+    background-color: white;
+}
+
+.imImage {
+    background-image: url('assets/images/content-image-2.png');
+    background-repeat: no-repeat;
+    width: 407px;
+    height: 582px;
+    margin: 120px 139px 140px 269px;
+}
+
+.imContainer {
+    margin: 319px 378px 339px 0;
+    letter-spacing: 1px;
+    width: 407px;
+    height: 184px;
+}
+
+.imContainer h1 {
+    margin: 0 100px 20px 0;
+    font-size: 24px;
+    color: #373737;
+}
+
+.imContainer p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 30px 0;
+}
+
+.imContainer button {
+    margin: 0 227px 0 0;
+    font-family: 'Roboto', sans-serif;
+    height: 46px;
+    width: 184px;
+    color: white;
+    background-color: #00AFDB;
+    padding: 15px 47px 15px 47px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+.imContainer button:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+
+
+/* End of Implement right code Page */
+
+
+/* Signup Page */
+
+.signUp{
+    width: 1600px;
+    height: 524px;
+    background-image: url('assets/images/bg-image1.jpg');
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+.signupForm {
+    margin: 200px 597px 220px 597px;
+    width: 408px;
+    height: 104px;
+}
+
+.signupForm h1 {
+    width: 381px;
+    height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin: 0 13px 30px 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.signupForm .inputContainer {
+    display: flex;
+}
+
+.inputContainer input {
+    width: 340px;
+    height: 46px;
+    border: none;
+    padding-left: 24px;
+}
+
+.inputBtn {
+    background-color: #00AFDB;
+    width: 66px;
+    height: 48px;
+}
+
+.inputBtn>img {
+    padding: 18px 0 0 24px;
+}
+
+.inputBtn:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+}
+
+/* End of Sign Up Page */
+
+/* Download Page */
+
+.download {
+    background-color: #F5F6F7;
+    width: 1600px;
+    height: 464px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.download h1 {
+    width: 252px;
+    height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 24px;
+    color: #373737;
+    margin: 120px 674px 0 674px;
+}
+
+.download p{
+    width: 480px;
+    height: 40px;
+    line-height: 140%;
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 560px 0px 560px
+}
+
+.downloadBtn {
+    display: flex;
+}
+
+.downloadBtnIos{
+    display: flex;
+    margin: 30px 30px 180px 599px;
+}
+
+.downloadBtnAndroid {
+    display: flex;
+    margin: 30px 599px 180px 0;
+}
+
+.Btn{
+    font-family: 'Roboto', sans-serif;
+    height: 46px;
+    width: 127px;
+    color: #fff;
+    background-color: #00AFDB;
+    padding: 15px 17px 15px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+
+.BtnIcon {
+    width: 59px;
+    height: 46px;
+    background-color: #009CC2;
+}
+
+.ANDROID {
+    padding: 12px 0px 0px 20px;
+}
+
+.IOS {
+    padding: 12px 0px 0px 20px;
+}
+
+/* End of Download Page */
+
+/* Footer */
+
+footer {
+    width: 1600px;
+    height: 185px;
+    background-color: #000;
+    margin: 0 auto 0 auto;
+}
+
+.footerContainer {
+    display: flex;
+}
+
+.footerLinks {
+    display: flex;
+    margin: 73px 382px 92px 160px;
+}
+
+.linkItem {
+    color: #fff;
+    font-size: 14px;
+}
+
+.linkItem:not(:nth-child(3)) {
+    margin-right: 30px;
+}
+
+.footerContainer img {
+    margin: 60px 448px 80px 0;
+}
+
+.copyright {
+    color: #818181;
+    margin: 73px 160px 92px 0px;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* End of the Footer */
